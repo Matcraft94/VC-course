@@ -3,14 +3,9 @@
 
 import cv2
 
-import pytesseract
-from pytesseract import Output
-
 import numpy as np
 
 import matplotlib.pyplot as plt
-
-
 
 def image_prepross(img: np.ndarray) -> np.ndarray:
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

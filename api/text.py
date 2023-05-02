@@ -21,3 +21,4 @@ def encuadrar_y_mostrar_texto(imagen, datos):
 
             # Mostrar el texto reconocido encima del rectángulo
             cv2.putText(imagen, palabra, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+
